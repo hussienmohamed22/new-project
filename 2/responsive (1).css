@@ -1,0 +1,75 @@
+@media (max-width: 992px){
+	.containner{
+		width: 100%;
+	}
+	.nav-top .nav-lists{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100%;
+		background-color: rgba(0,0,0,.7);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity .5s , visibility .5s;
+	}
+	.nav-list-active{
+		visibility: visible !important;
+		opacity: 1 !important;
+	}
+	.nav-top{
+		position: fixed;
+		width: 100%;
+		padding: 22px 0;
+	}
+	.nav-top .nav-lists .list{
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 20px;
+		background-color: #fff;
+		width: 80%;
+		border-radius: 10px;
+	}
+	.nav-top .nav-lists .list li{
+		margin-bottom: 30px;
+		
+	}
+	.nav-top .nav-lists .close{
+		display: block;
+	}
+	.nav-top .bars{
+		display: block;
+		transition: opacity .5s;
+	}
+	.main-section{
+		flex-direction: column;
+	}
+	.main-section{
+		display: block;
+	}
+	.main-content {
+		width: 100% !important;
+		overflow: auto;
+		text-align: center !important;
+	}
+	.main-section .main-img{
+		width: 100%;
+		animation: none;
+		-webkit-animation: none;	
+	}
+	.services .ser .ser-con{
+		height: auto;
+	}
+	.contact-form .cont-frm,
+	.contact-form .adr-info,
+	.services .ser .ser-con .ser-cards,
+	.about-par > div,
+	.about .about-us{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+}

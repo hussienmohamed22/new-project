@@ -1,0 +1,66 @@
+@media (max-width: 992px){
+	.containner{
+		padding: 0 2rem !important;
+	}
+	.nav-top .nav-lists{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100%;
+		background-color: rgba(0,0,0,.7);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity .5s , visibility .5s;
+	}
+	.nav-list-active{
+		visibility: visible !important;
+		opacity: 1 !important;
+	}
+	.nav-top{
+		position: fixed;
+		width: 100%;
+		padding: 22px 0;
+	}
+	.nav-top .nav-lists .list{
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 20px;
+		background-color: #fff;
+		width: 80%;
+		border-radius: 10px;
+	}
+	.nav-top .nav-lists .list li{
+		margin-bottom: 30px;
+		
+	}
+	.nav-top .nav-lists .close{
+		display: block;
+	}
+	.nav-top .bars{
+		display: block;
+		transition: opacity .5s;
+	}
+	.main-section{
+		flex-direction: column;
+	}
+	.main-content , .main-img{
+		width: 100%;
+	}
+	.main-img{
+		margin-top: 50px !important;
+		animation: none !important;
+		-webkit-animation: none !important;
+		width: 100% !important;
+	}
+	.contact-form, .map,
+	.skils-part .skils-card,
+	.all-cards .all-cards-containner,
+	.main-content{
+		width: 100% !important;
+	}
+
+}
